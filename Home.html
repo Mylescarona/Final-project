@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>    
+        <nav>
+            <div class="nav">
+                <a href="home.html">Home</a>
+                <a href="Project.html">Project</a>
+            <a href="Contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+        <section class="container">
+        
+        <div class="content">
+            <div class="image">
+            <img src="1.jpg" >
+        </div>
+            <h1>Hello, It's Me</h1>
+            <h2><span>Myles Carona</span></h2>
+            <p>And I am a Second year student of Information Communication Technology</p>
+            <div class="button-container">
+            <a href="Project.html" class="project-button">Click my activity</a>
+        </div>
+           
+        </div>
+        
+    </section>
+</body>
+<footer>
+    
+</footer>
+</html>
+<style>
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-color: #CF9FFF;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 9px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:url("A.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+.image img {
+    width: 150px;
+    height: 110px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    margin-left:70px;
+    }
+.content h1 {
+    padding-left:10px;
+    font-size: 30px;
+    font-family: Cursive;
+}
+
+.content h2 {
+    font-size: 35px;
+    margin: 10px 0;
+    font-weight: bold;
+    margin-left:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content span {
+    color: black;
+}
+
+.content p {
+    margin: 15px 0;
+    font-size: 15px;
+    font-family: Fantasy;
+    
+}
+
+ .button-container {
+    margin-top: 40px;
+    margin-left:80px;
+}
+ .project-button {
+     font-size: 10px;
+     padding: 10px;
+     background-color: black;
+     color: white;
+     text-decoration: none;
+     border-radius: 90px;
+     font-family: Arial, Helvetica, sans-serif;
+     transition: all 0.3s;
+      
+}
+ .project-button:hover {
+     background-color: white;
+     color: black;
+     border: 8px solid gray;
+ }
+
+footer {
+    height:50px;
+    width:100%;
+    background-color:#CF9FFF;
+}
+</style>
